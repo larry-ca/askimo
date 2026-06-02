@@ -47,30 +47,11 @@ class ToolProviderImpl(
                 emptyList()
             }
 
-        val toolVectorIndex = mcpInstanceService.getToolVectorIndex()
-
-        val userIntent = DetectUserIntentCommand.execute(
-            userMessage = request.userMessage().singleText() ?: "",
-            availableTools = ToolRegistry.getIntentBased(),
-            mcpTools = mcpTools,
-            toolVectorIndex = toolVectorIndex,
-        )
-
-        if (userIntent.tools.isEmpty()) return null
-
-        val mcpCount = userIntent.tools.count { it.source == ToolSource.MCP_EXTERNAL }
-        if (mcpCount > 0) {
-            Analytics.track(
-                AnalyticsEvent.MCP_TOOL_USED,
-                mapOf("scope" to "global", "tool_count" to mcpCount.toString()),
-            )
-        }
-
         val enabledServers = ChatContext.getEnabledServers()
 
         val builder = ToolProviderResult.builder()
 
-        userIntent.tools
+        mcpTools
             .filter { tool -> tool.serverId in enabledServers }
             .forEach { tool ->
                 if (tool.source == ToolSource.ASKIMO_BUILTIN) {
