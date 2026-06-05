@@ -35,7 +35,10 @@ private data class DirectiveExportItem(
     val content: String,
 )
 
-private val json = Json { prettyPrint = true; ignoreUnknownKeys = true }
+private val json = Json {
+    prettyPrint = true
+    ignoreUnknownKeys = true
+}
 
 /**
  * Service for managing chat directives and building system prompts for chat sessions.
