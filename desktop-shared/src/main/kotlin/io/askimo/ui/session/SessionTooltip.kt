@@ -19,9 +19,9 @@ import androidx.compose.ui.unit.dp
 import io.askimo.core.chat.domain.ChatSession
 import io.askimo.core.util.TimeUtil
 import io.askimo.ui.common.i18n.stringResource
+import io.askimo.ui.common.theme.Spacing
 import io.askimo.ui.common.ui.TooltipPlacement
 import io.askimo.ui.common.ui.themedRichTooltip
-import io.askimo.ui.common.theme.Spacing
 
 /**
  * A rich tooltip for a [ChatSession] that shows:

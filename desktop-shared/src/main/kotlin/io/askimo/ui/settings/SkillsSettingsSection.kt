@@ -89,7 +89,6 @@ import io.askimo.core.AppConstants.DOMAIN
 import io.askimo.core.skills.SkillImporter
 import io.askimo.core.skills.SkillRepository
 import io.askimo.core.skills.agent.ExternalAgentLoader
-import io.askimo.ui.common.theme.Spacing
 import io.askimo.core.skills.domain.SkillDefinition
 import io.askimo.core.skills.domain.SkillTreeNode
 import io.askimo.core.util.AskimoHome
@@ -100,6 +99,7 @@ import io.askimo.ui.common.i18n.stringResource
 import io.askimo.ui.common.preferences.ApplicationPreferences
 import io.askimo.ui.common.theme.AppComponents
 import io.askimo.ui.common.theme.AppComponents.appOutlinedTextField
+import io.askimo.ui.common.theme.Spacing
 import io.askimo.ui.common.theme.ThemePreferences
 import io.askimo.ui.common.ui.revealingMarkdownText
 import io.askimo.ui.common.ui.themedTooltip
@@ -570,16 +570,16 @@ private fun skillsMainSelectPrompt() {
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(Spacing.medium),
-    ) {
-        Icon(
-            Icons.Default.Extension,
-            contentDescription = null,
-            modifier = Modifier.size(56.dp),
-            tint = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.3f),
-        )
-        Text(
-            text = stringResource("settings.skills.select.prompt"),
+            verticalArrangement = Arrangement.spacedBy(Spacing.medium),
+        ) {
+            Icon(
+                Icons.Default.Extension,
+                contentDescription = null,
+                modifier = Modifier.size(56.dp),
+                tint = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.3f),
+            )
+            Text(
+                text = stringResource("settings.skills.select.prompt"),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
             )

@@ -150,7 +150,8 @@ fun communityProjectSidePanel(
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        Row(horizontalArrangement = Arrangement.spacedBy(Spacing.small),
+                        Row(
+                            horizontalArrangement = Arrangement.spacedBy(Spacing.small),
                             verticalAlignment = Alignment.CenterVertically,
                         ) {
                             if (selectedTab == PanelTab.RAG_SOURCES && project != null && project.knowledgeSources.isNotEmpty()) {

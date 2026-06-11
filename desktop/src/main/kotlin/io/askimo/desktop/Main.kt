@@ -122,13 +122,13 @@ import io.askimo.ui.common.theme.LocalCodeFontFamily
 import io.askimo.ui.common.theme.LocalFontScale
 import io.askimo.ui.common.theme.LocalLayoutDensity
 import io.askimo.ui.common.theme.LocalSpacing
-import io.askimo.ui.common.theme.Spacing
-import io.askimo.ui.common.theme.SpacingValues
 import io.askimo.ui.common.theme.NordColorScheme
 import io.askimo.ui.common.theme.OceanColorScheme
 import io.askimo.ui.common.theme.RoseColorScheme
 import io.askimo.ui.common.theme.SageColorScheme
 import io.askimo.ui.common.theme.SepiaColorScheme
+import io.askimo.ui.common.theme.Spacing
+import io.askimo.ui.common.theme.SpacingValues
 import io.askimo.ui.common.theme.ThemeMode
 import io.askimo.ui.common.theme.ThemePreferences
 import io.askimo.ui.common.theme.appBackground

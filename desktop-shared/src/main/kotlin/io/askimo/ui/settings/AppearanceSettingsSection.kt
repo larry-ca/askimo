@@ -37,8 +37,8 @@ import androidx.compose.material.icons.filled.DarkMode
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.LightMode
 import androidx.compose.material.icons.filled.SmartToy
-import androidx.compose.material.icons.filled.ViewCompact
 import androidx.compose.material.icons.filled.ViewComfy
+import androidx.compose.material.icons.filled.ViewCompact
 import androidx.compose.material3.Card
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme

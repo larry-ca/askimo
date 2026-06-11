@@ -47,10 +47,10 @@ import androidx.compose.ui.unit.sp
 import io.askimo.core.context.AppContext
 import io.askimo.core.telemetry.TelemetryMetrics
 import io.askimo.ui.common.i18n.stringResource
+import io.askimo.ui.common.theme.Spacing
 import io.askimo.ui.common.ui.themedTooltip
 import io.askimo.ui.util.formatDuration
 import io.askimo.ui.util.formatDurationDetailed
-import io.askimo.ui.common.theme.Spacing
 import org.koin.java.KoinJavaComponent.get
 import java.util.Locale.getDefault
 

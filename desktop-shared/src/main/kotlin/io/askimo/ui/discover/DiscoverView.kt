@@ -58,8 +58,8 @@ import io.askimo.core.user.domain.UserProfile
 import io.askimo.core.util.TimeUtil
 import io.askimo.ui.common.components.clickableCard
 import io.askimo.ui.common.i18n.stringResource
-import io.askimo.ui.common.theme.ThemePreferences
 import io.askimo.ui.common.theme.Spacing
+import io.askimo.ui.common.theme.ThemePreferences
 import io.askimo.ui.session.sessionTooltip
 import java.awt.Desktop
 import java.net.URI
