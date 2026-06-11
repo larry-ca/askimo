@@ -32,6 +32,7 @@ import io.askimo.core.event.internal.ProjectsRefreshEvent
 import io.askimo.core.event.internal.SessionsRefreshEvent
 import io.askimo.ui.common.i18n.stringResource
 import io.askimo.ui.common.theme.AppComponents.dropdownMenu
+import io.askimo.ui.common.theme.Spacing
 import io.askimo.ui.shell.DeveloperModePreferences
 
 /**

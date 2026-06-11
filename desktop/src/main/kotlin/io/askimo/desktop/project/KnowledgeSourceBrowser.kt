@@ -5,6 +5,7 @@
 package io.askimo.desktop.project
 
 import io.askimo.ui.common.ui.util.FileDialogUtils
+import io.askimo.ui.common.theme.Spacing
 import java.util.UUID
 
 /**

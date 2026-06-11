@@ -41,6 +41,7 @@ import io.askimo.desktop.View
 import io.askimo.desktop.project.ProjectsViewModel
 import io.askimo.ui.common.i18n.stringResource
 import io.askimo.ui.common.theme.AppComponents
+import io.askimo.ui.common.theme.Spacing
 import io.askimo.ui.common.theme.LocalFontScale
 import io.askimo.ui.common.ui.themedTooltip
 import io.askimo.ui.session.SessionsViewModel

@@ -13,6 +13,7 @@ import io.askimo.core.event.error.ModelNotAvailableEvent
 import io.askimo.core.event.error.SendMessageErrorEvent
 import io.askimo.core.exception.ExceptionMapper
 import io.askimo.core.i18n.LocalizationManager
+import io.askimo.ui.common.theme.Spacing
 
 /**
  * Holds the state for the global error dialog triggered by application-wide error events.
